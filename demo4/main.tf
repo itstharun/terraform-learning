@@ -15,7 +15,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "t" {
-  bucket = "tk-test-bucket"
+  bucket = "tktestbucket"
   acl    = "private"
 
   tags = {
