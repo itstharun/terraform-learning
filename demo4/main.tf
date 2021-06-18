@@ -14,12 +14,12 @@ provider "aws" {
   region  = "us-west-2"
 }
 
-resource "aws_s3bucket" "tk" {
-  bucket = "newbucket"
+resource "aws_s3_bucket" "k" {
+  bucket = "tharun-test-bucket1"
   acl    = "private"
 
   tags = {
-    Name        = "Tharu"
+    Name        = "Tharuntestbucket"
     Environment = "Dev"
   }
 }
