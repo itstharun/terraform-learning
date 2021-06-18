@@ -14,7 +14,7 @@ provider "aws" {
   region  = "us-west-2"
 }
 
-resource "awss3buckettk" "b" {
+resource "aws_s3_bucket" "t" {
   bucket = "tk-test-bucket"
   acl    = "private"
 
