@@ -19,7 +19,7 @@ resource "aws_s3_bucket" "b" {
   acl    = "private"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "Tharuns3"
     Environment = "Dev"
   }
 }
