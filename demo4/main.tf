@@ -15,11 +15,11 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "t" {
-  bucket = "tktestbucket"
+  bucket = "newbucket"
   acl    = "private"
 
   tags = {
-    Name        = "Tharuns3"
+    Name        = "Tharu"
     Environment = "Dev"
   }
 }
