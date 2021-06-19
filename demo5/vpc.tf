@@ -36,7 +36,7 @@ resource "aws_subnet" "tk-public-3" {
   vpc_id                  = aws_vpc.tk-vpc.id
   cidr_block              = "10.0.3.0/24"
   map_public_ip_on_launch = "true"
-  availability_zone       = "us-west-1c"
+  availability_zone       = "us-west-1b"
 
   tags = {
     Name = "tk-public-3"
@@ -69,7 +69,7 @@ resource "aws_subnet" "tk-private-3" {
   vpc_id                  = aws_vpc.tk-vpc.id
   cidr_block              = "10.0.6.0/24"
   map_public_ip_on_launch = "false"
-  availability_zone       = "us-west-1c"
+  availability_zone       = "us-west-1b"
 
   tags = {
     Name = "tk-private-3"
